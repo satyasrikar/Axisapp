@@ -12,4 +12,11 @@ class CalculatorTest : TestCase() {
         var actual = calculator.add(10,20)
         assertEquals(expected,actual)
     }
+
+    fun testSub(){
+        var expected = 25
+        var calculator = Calculator()
+        var actual = calculator.mul(5,4)
+        assertEquals(expected,actual)
+    }
 }
